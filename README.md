@@ -236,7 +236,7 @@ bash ./run-code.sh # run all .python files
 Note: experimental.
 
 ```
-docker run -it -p 8888:8888 -v $(pwd):/root geocompr/geocompr:conda
+docker run -it -p 8888:8888 -v $(pwd):/root geocompr/geocompr:mamba
 jupyter 
 ```
 

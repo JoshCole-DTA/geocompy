@@ -7,7 +7,7 @@ jobs:
   bookdown:
     name: Netlify
     runs-on: ubuntu-latest
-    container: geocompr/geocompr:conda
+    container: geocompr/geocompr:mamba
     defaults:
       run:
         shell: bash -l {0}

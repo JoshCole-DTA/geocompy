@@ -5,7 +5,7 @@ jobs:
   bookdown:
     name: Test-quarto
     runs-on: ubuntu-latest
-    container: geocompr/geocompr:conda
+    container: geocompr/geocompr:mamba
     defaults:
       run:
         shell: bash -l {0}
